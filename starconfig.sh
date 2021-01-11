@@ -16,7 +16,7 @@ sudo apt install software-properties-common -y
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt install python3.9 -y
 #install nginx
-sudo apt install nginx
+sudo apt install nginx -y
 #ufw settings
 sudo ufw allow OpenSSH
 sudo ufw allow 'Nginx Full'
