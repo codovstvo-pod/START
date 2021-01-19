@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 sudo apt update -y
 sudo apt upgrade -y
 #install docker
