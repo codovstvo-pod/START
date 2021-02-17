@@ -17,6 +17,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 #sudo apt install software-properties-common -y
 #sudo add-apt-repository ppa:deadsnakes/ppa -y
 #sudo apt install python3.9 -y
+#install  nodejs npm
+sudo apt install nodejs -y
+sudo apt install npm -y
 #install nginx
 sudo apt install nginx -y
 #ufw settings
