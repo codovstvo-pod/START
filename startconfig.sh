@@ -5,7 +5,7 @@ sudo apt upgrade -y
 sudo apt install net-tools -y
 #install docker
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -y
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" -y
 sudo apt update
 sudo apt-cache policy docker-ce
@@ -20,6 +20,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 #install  nodejs npm
 sudo apt install nodejs -y
 sudo apt install npm -y
+sudo apt install build-essential -y
+sudo npm install pm2@latest -g
 #install nginx
 sudo apt install nginx -y
 #ufw settings
