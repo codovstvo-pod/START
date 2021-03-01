@@ -3,6 +3,7 @@ sudo apt update -y
 sudo apt upgrade -y
 #install net-tools
 sudo apt install net-tools -y
+sudo apt install htop
 #install docker
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -y
